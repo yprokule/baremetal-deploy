@@ -349,6 +349,7 @@ Sample playbook.yml
   hosts: provisioner
   roles:
   - node-prep
+  - cache_images
   - installer
 ~~~
 
